@@ -28,27 +28,11 @@ p {
 ================================================== */
 .brick {
   float: left;
-  background-color: #fff;
-  width: 320px;
+  width: 140px;
   height: 140px;
   position: relative;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
 }
-.brick:before,
-.brick:after {
-  content: '';
-  width: 122px;
-  height: 80px;
-  position: absolute;
-  top: 30px;
-  left: 25px;
-  background-color: #6b7fdc; /* #d0162c; */
-  -webkit-border-radius: 12px;
-     -moz-border-radius: 12px;
-          border-radius: 12px;
-}
+
 .brick:after {
   left: auto;
   right: 25px;
